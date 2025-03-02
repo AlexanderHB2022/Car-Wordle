@@ -1,15 +1,17 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
+import { Button } from "./components/Button";
 
 const carModels = [
-  "ACURA", "ARIEL", "BUICK", "CHERY", "DACIA", "DODGE", "GEELY", "HONDA", "ISUZU", "LEXUS", 
-  "LOTUS", "MAZDA", "SCION", "SKODA", "SMART", "TESLA", "VOLVO", 
-  "ACCENT", "ALERO", "ARIES", "ASPEN", "ATLAS", "BLADE", "BRAVO", "CADDY", "CIVIC", "COBRA", 
-  "COMET", "COSMO", "CROWN", "CRUZE", "DERBY", "DOBLO", "EUNOS", "EXIGE", "FABIA", "FLASH", 
-  "FOCUS", "FORTE", "IONIQ", "JETTA", "KICKS", "LANOS", "LASER", "LUXIO", "MARCH", "MEGAN", 
-  "MERAK", "MISTRA", "MOKKA", "MURAT", "OMEGA", "OPTRA", "ORION", "PUNTO", "SONIC", "SUPRA", 
-  "TIBUR", "TIIDA", "URBAN", "VENTO", "VITARA", "VIVIO", "SWIFT", "ZONDA", "CORSA", "CHEVY", "CAMRY"
+  "TESLA", "CAMRY", "CIVIC", "CORSA", "MUSTANG", "PRIUS", "RANGER", "SUPRA",
+  "CHEVY", "ACURA", "ARIEL", "BUICK", "CHERY", "DACIA", "DODGE", "GEELY", "HONDA",
+  "ISUZU", "LEXUS", "LOTUS", "MAZDA", "SCION", "SKODA", "SMART", "VOLVO", "ACCENT",
+  "ALERO", "ARIES", "ASPEN", "ATLAS", "AIXAM", "BLADE", "BRAVO", "CADDY", "COBRA",
+  "COMET", "COSMO", "CROWN", "CRUZE", "DERBY", "DOBLO", "EUNOS", "EXIGE", "FABIA",
+  "FLASH", "FOCUS", "FORTE", "IONIQ", "JETTA", "KICKS", "LANOS", "LASER", "LUXIO",
+  "MARCH", "MEGAN", "MERAK", "MISTRA", "MOKKA", "MURAT", "OMEGA", "OPTRA", "ORION",
+  "PUNTO", "SONIC", "SUPRA", "TIBUR", "TIIDA", "URBAN", "VENTO", "VITARA", "VIVIO",
+  "SWIFT", "ZONDA"
 ];
 
 const wordLength = 5;
