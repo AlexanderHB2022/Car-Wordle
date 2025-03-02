@@ -13,4 +13,4 @@ Este es un juego basado en **Wordle** pero con modelos de autos. El objetivo es 
 
 Este proyecto está disponible en GitHub Pages. Puedes jugarlo aquí:
 
-[https://tu-usuario.github.io/tu-repositorio](https://tu-usuario.github.io/tu-repositorio)
+https://github.com/AlexanderHB2022/Car-Wordle/blob/da2d71ed0539cfc7843cadfaec6d8e232df05ea8/Car-Wordle
