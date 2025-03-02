@@ -16,7 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://tu-usuario.github.io/tu-repositorio",  
+  "homepage": "https://github.com/AlexanderHB2022/Car-Wordle",  
   "eslintConfig": {
     "extends": [
       "react-app",
